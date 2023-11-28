@@ -1,0 +1,46 @@
+body{
+    background-image :url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvam9iNTQ1LXdpdC01OF8xXzEuanBn.jpg);
+}
+.container{
+    margin-top: 50px;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+.bold-placeholder::placeholder {
+    color: black;
+ }
+.container > h1{
+    text-align: center;
+    text-decoration: underline solid;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+.todo-form{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.todo-form input{
+    width: 100%;
+}
+.todo-list li{
+    margin-top: 5px;
+}
+
+.todo-list > li >div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-weight: bold;
+    background-color:rgba(212, 182, 255, 0.837);
+}
+
+.todo-list button{
+    margin-left: 30px;
+
+}
